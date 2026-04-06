@@ -13,6 +13,6 @@ const quotes = [
 // In quotes.js, export a function named getRandomQuote.
 
 export function getRandomQuote() {
-  const index = getRandomInt(0, quotes.length);
+  const index = getRandomInt(quotes.length);
   return quotes[index];
 }
